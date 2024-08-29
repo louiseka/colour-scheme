@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colour Scheme Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="get-colours">
+            <input type="color" id="colour-selector">
+
+
+            <select name="colour-scheme" id="colour-scheme-selector" class="colour-selector">
+                <option value="monochrome"> Monochrome </option>
+                <option value="monochrome-dark"> Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic"> Analogic</option>
+                <option value="complement"> Complement</option>
+                <option value="analogic-complement"> Analogic-complement</option>
+                <option value="triad"> Triad</option>
+            </select>
+
+            <button id="get-scheme-btn"> Get colour scheme</button>
+
+
+        </section>
+
+        <section class="gen-colours">
+            <div class="palette">
+
+                <div class="palette-item">
+                    <div id="colour-0" class="colours"></div>
+                    <p id="hex-0"> </p>
+                </div>
+
+                <div class="palette-item">
+                    <div id="colour-1" class="colours"></div>
+                    <p id="hex-1"> </p>
+                </div>
+
+                <div class="palette-item">
+                    <div id="colour-2" class="colours"></div>
+                    <p id="hex-2"> </p>
+                </div>
+
+                <div class="palette-item">
+                    <div id="colour-3" class="colours"></div>
+                    <p id="hex-3"> </p>
+                </div>
+
+                <div class="palette-item">
+                    <div id="colour-4" class="colours"></div>
+                    <p id="hex-4"> </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

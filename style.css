@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: #FFFDFE;
+}
+
+.get-colours {
+    margin: 30px auto;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+button,
+.colour-selector {
+    font-family: "Inter", sans-serif;
+    color: #111827;
+    background-color: #FFFDFE;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.colour-selector {
+    width: 350px;
+}
+
+input[type="color"] {
+    height: 40px;
+    border: 1px solid #D1D5DB;
+    border-radius: 5px;
+}
+
+.colours {
+    width: 100%;
+    height: 600px;
+    flex-grow: 1;
+}
+
+.palette-item {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.palette {
+    display: flex;
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+}
