@@ -45,8 +45,8 @@ git clone https://github.com/yourusername/colour-scheme-picker.git
 
 # Navigate into the project directory
 cd colour-scheme-picker
-```
-
 
 # Open the project
 open index.html
+
+```
