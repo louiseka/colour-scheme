@@ -41,10 +41,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/colour-scheme-picker.git
+git clone https://github.com/yourusername/colour-scheme.git
 
 # Navigate into the project directory
-cd colour-scheme-picker
+cd colour-scheme
 
 # Open the project
 open index.html
